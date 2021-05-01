@@ -13,6 +13,17 @@
 1. Contact with me via Discord: `alejandromume#0884`
 2. Open a ticket at my Discord server: [https://discord.gg/jtqfCkWzqg](https://discord.gg/jtqfCkWzqg)
 
+## Real examples
+* You can create your own Discord `CFX finder bot` with this `API`. You just will need to do a request. Here is an example:
+
+```js
+const  fetch  =  require('node-fetch');
+
+fetch('API_URL')
+ .then(res  =>  res.json())
+ .then(json  =>  console.log(json));
+```
+
 ## Next updates
 * Web panel for viewing the info easily
 * Faster loading times
