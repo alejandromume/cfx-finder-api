@@ -14,7 +14,7 @@
 2. Open a ticket at my Discord server: [https://discord.gg/jtqfCkWzqg](https://discord.gg/jtqfCkWzqg)
 
 ## Real examples
-* You can create your own Discord `CFX finder bot` with this `API`. You just will need to do a request. Here is an example:
+* You can create your own Discord `CFX finder bot` with this `API`. You just will need to do a `GET` request. Here is an example:
 
 ```js
 const  fetch  =  require('node-fetch');
